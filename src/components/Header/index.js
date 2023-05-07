@@ -36,14 +36,14 @@ const Header = props => {
               Cart
             </Link>
           </li>
+          <button
+            type="button"
+            className="logout-desktop-btn"
+            onClick={onClickLogout}
+          >
+            Logout
+          </button>
         </ul>
-        <button
-          type="button"
-          className="logout-desktop-btn"
-          onClick={onClickLogout}
-        >
-          Logout
-        </button>
         <button
           type="button"
           className="logout-mobile-btn"
